@@ -4,8 +4,8 @@ pipeline {
     stage('make python script'){
       steps{
        //make the file
-        sh "chmod +x ./scripts/make-python.sh"
-        sh "./scripts/make-python.sh"
+        sh "chmod +x ./make-python.sh"
+        sh "./make-python.sh"
         //sh 'touch helloworld.py'
         }
     }
